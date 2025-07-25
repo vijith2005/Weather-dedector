@@ -6,7 +6,7 @@ function WeatherCard({ data }) {
 
   return (
     <div className="weather-card">
-      <h2>{location.name}, {location.country}</h2>
+      <h2 style={{color: "black"}}>{location.name}, {location.country}</h2>
       <h3>{current.temp_c}°C</h3>
       <img src={current.condition.icon} alt={current.condition.text} />
       <p>{current.condition.text}</p>
