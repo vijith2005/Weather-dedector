@@ -37,7 +37,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1>Weather Forecast</h1>
+      <h1>Weather Forecast</h1> 
       <form onSubmit={handleSearch}>
         <input
           type="text"
@@ -55,3 +55,4 @@ function App() {
 }
 
 export default App;
+  
